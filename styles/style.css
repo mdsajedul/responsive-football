@@ -7,7 +7,7 @@ body{
     margin: 0;
 }
 
-/*    top bar style    */
+/*    banner style    */
 
 
 .banner{
@@ -24,7 +24,7 @@ body{
     padding-bottom: 169px;
 }
 
-/* top bar header */
+/* banner header */
 
 .banner-header h1{
     margin: 0;
@@ -74,9 +74,8 @@ body{
     left: 0; 
   }
 
-/* top bar image */
 
-
+/* banner image */
 
 .banner-img img{
     margin-top: 153px;
@@ -85,7 +84,11 @@ body{
     height: 438px;
 }
 
-/* section blogs start */
+/* banner section end */
+
+
+
+/* Player section start */
 
 /* blogs style */
 .blogs{
@@ -124,6 +127,65 @@ body{
     line-height: 26px;
 }
 
+/* player section end */
+
+/* 2021 copa america start */
+
+.copa{
+   
+    display: grid;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+    width: 1050px;
+}
+
+.copa-header h3{
+    text-align: center;
+}
+
+.copa-content{
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    
+}
+
+.copa-score{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 70px;
+    margin-bottom: 20px;
+    
+}
+
+.copa-score .ft{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.team{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.team-score{
+    font-size: 40px;
+}
+
+.team img{
+    width: 80px;
+    height: 50px;
+}
+
+.copa-banner-thumbnail img{
+    width: 1050px;
+    border-radius: 10px;
+}
+
+/* 2021 copa america end */
 
 /* footer start */
 
@@ -137,10 +199,16 @@ body{
     align-items: center;
 }
 
+/* footer image */
+
 .footer-content img{
     width: 484px;
     height: 110px;
 }
+
+
+/* /social icons */
+
 .social-icon{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -160,6 +228,8 @@ body{
   text-decoration: none;
   border-radius: 50%;
   }
+
+  /* footer copyright */
 
   .copyright{
       font-size: 18px;
@@ -207,6 +277,7 @@ body{
         margin-left: 0px;
         margin-right: 0px;
         width: 100%;
+        justify-content: center;
       }
       .blog{
         margin-left: 15px;
